@@ -1,0 +1,76 @@
+body {
+    background-color: #FEFAE0;
+}
+.set{
+    background-color: #DBE4C6;
+    font-family: 'Cormorant Garamond', serif;
+}
+.set:nth-child(2){
+    background-color: #BBD6B8;
+}
+.logo {
+    font-family: 'Abril Fatface', cursive;
+    color: #867070;
+}
+.clck{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #867070;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.right{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.left {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.input {
+    background-color: #00000000;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+    padding: 5px;
+}
+.input:focus{
+    outline-style: none;
+}
+.minandsec{
+    display: flex;
+    justify-content: space-around;
+}
+.enter{
+    display: flex;
+    justify-content: space-around;
+}
+#pomodoroCounterDiv{
+    display: flex;
+    justify-content: space-between;
+}
+#pomodoroCounter{
+    background-color: #BBD6B8;
+    padding: 13px;
+    border-radius: 22px;
+    font-weight: bolder;
+}
+
+#startbutton{
+    border-radius: 20px;
+    background-color: #867070;
+    border-color: #867070;
+    font-weight: 900;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+#offcanvasBottom{
+    background-color: #edead3;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.ct{
+    font-family: "Poppins";
+    font-weight: 500;
+    background-color: #adab99;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;;
+}
